@@ -1,2 +1,2 @@
-# problemsolvingalgorithm
-problem solving algorithm book study
+# 문제로 풀어보는 알고리즘 책
+풀어본 문제의 소스를 올려놨습니다.
