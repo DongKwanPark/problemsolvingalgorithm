@@ -1,4 +1,4 @@
-// exerciseproblem00.cpp : Defines the entry point for the console application.
+ï»¿// exerciseproblem00.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -9,11 +9,11 @@ void binaryprint(int number);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	// 0.c ¹®Á¦
+	// 0.c ë¬¸ì œ
 	countofone( 1000 );
-	// 0.d ¹®Á¦
+	// 0.d ë¬¸ì œ
 	stacklinkedlist();
-	// 0.g ¹®Á¦
+	// 0.g ë¬¸ì œ
 	binaryprint( 600 );		// 1001011000
 	binaryprint( 1000 );	// 1111101000
 
@@ -35,7 +35,7 @@ void countofone(int number)
 	if( value == 1)
 		count++;
 
-	printf( "ÀÌÁø¼ö·Î º¯È¯ÇÑ 1ÀÇ °³¼ö´Â %d°³\n", count );
+	printf( "ì´ì§„ìˆ˜ë¡œ ë³€í™˜í•œ 1ì˜ ê°œìˆ˜ëŠ” %dê°œ\n", count );
 }
 
 struct node

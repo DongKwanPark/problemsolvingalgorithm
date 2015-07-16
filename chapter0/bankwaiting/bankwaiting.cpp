@@ -1,9 +1,9 @@
-// bankwaiting.cpp : Defines the entry point for the console application.
+ï»¿// bankwaiting.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
 
-// ÀºÇà´ë±â¹øÈ£°ü¸®
+// ì€í–‰ëŒ€ê¸°ë²ˆí˜¸ê´€ë¦¬
 int pushqueue(int arr[], int size, int tail, int number);
 int popqueue(int arr[], int size, int head, int number);
 
