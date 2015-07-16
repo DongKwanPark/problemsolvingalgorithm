@@ -6,6 +6,7 @@
 void countofone(int number);
 void stacklinkedlist();
 void binaryprint(int number);
+void binaryprint2(int number);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -15,7 +16,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	stacklinkedlist();
 	// 0.g 문제
 	binaryprint( 600 );		// 1001011000
-	binaryprint( 1000 );	// 1111101000
+	binaryprint2( 1000 );	// 1111101000
 
 	return 0;
 }
@@ -114,3 +115,17 @@ void binaryprint(int number)
 	}
 	printf( "%ld\n", binary );
 }
+
+void binaryprint2(int number)
+{
+	node* top = NULL;
+	int value = number;
+	while( value > 0 )
+	{
+		top = stackpush( top, ( value % 2 ) );
+		value /= 2;
+	}
+	while( top )
+		printf( "%d", stackpop( top ) );
+}
+
