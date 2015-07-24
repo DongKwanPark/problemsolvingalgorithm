@@ -26,10 +26,10 @@ int _tmain(int argc, _TCHAR* argv[])
 		for( int j = 0; j < r; j++ )
 			arr[i][j] = 0;
 	}
-	printf( "(%d,%d) of ExBinomialCoefficient = %I64d\n", n, r, BinomialCoefficient( arr, n, r) );
-// 	printf( "(%d,%d) of BinomialCoefficient = %I64d\n", n, r, ExBinomialCoefficient(n, r) );
- 	printf( "(%d,%d) of ExBinomialCoefficient = %lld\n", n, r, choose(n, r) );
- 	printf( "method run count ExBinomialCoefficient = %I64d, choose = %I64d\n", countBinomialCoefficient, countchoose );
+	printf( "(%d,%d) of BinomialCoefficient = %I64d\n", n, r, BinomialCoefficient( arr, n, r) );
+// 	printf( "(%d,%d) of ExBinomialCoefficient = %I64d\n", n, r, ExBinomialCoefficient(n, r) );
+ 	printf( "(%d,%d) of choose = %lld\n", n, r, choose(n, r) );
+ 	printf( "method run count BinomialCoefficient = %I64d, choose = %I64d\n", countBinomialCoefficient, countchoose );
 
 	for( int i = 0; i < n; i++ )
 		delete[] arr[i];
